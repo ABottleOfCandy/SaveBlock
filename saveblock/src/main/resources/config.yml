@@ -1,0 +1,18 @@
+SaveBlock:
+
+  setting:
+    #是否开启
+    OnEnable: true
+
+    position_y: -5
+
+    BlockType: "SLIME_BLOCK"
+
+    delay: 5
+
+  language:
+    wait_message: "&f无法使用请等待冷却时间"
+    success_title: "&f使用成功"
+    success_subtitle: "&b5秒&e后&f消失"
+
+  log:

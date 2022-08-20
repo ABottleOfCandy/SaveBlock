@@ -1,0 +1,17 @@
+name: Sakura_SaveBlock
+version: '1.0.0'
+main: com.sakura.Sakura.SaveBlock
+
+commands:
+  saveblock:
+    description: SaveBlock自救平台指令 需要saveblock.* 权限
+    aliases:
+      - sb
+
+
+permissions:
+  saveblock.help:
+    description: 获取帮助的权限
+    default: true
+  saveblock.give:
+    description: 给予自救平台
